@@ -12,7 +12,6 @@ Estudo sobre typescript avançado
 
 # Configurar eslint
 - npm i eslint -D
-- npm i @typescript-eslint/eslint-plugin @typescript-eslint/parser -D
-- npx eslint --init
-- npm install --save-dev eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
+- npm i eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin -D
 - npm i prettier eslint-config-prettier eslint-plugin-prettier -D
+- npx eslint --init
