@@ -12,10 +12,10 @@ export default [
     },
     plugins: {
       "@typescript-eslint": eslintPluginTs,
-      // prettier: eslintPluginPrettier,
+      prettier: eslintPluginPrettier,
     },
     extends: [
-      // "plugin:prettier/recommended", // Recomendação de configuração do Prettier
+      "plugin:prettier/recommended", // Recomendação de configuração do Prettier
       "eslint:recommended",
       "plugin:@typescript-eslint/eslint-recommended",
       "plugin:@typescript-eslint/recommended",
