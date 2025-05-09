@@ -1,4 +1,4 @@
-let x: unknown
+let X: unknown
 
 x = 100
 x = 'hello'
