@@ -14,6 +14,9 @@ export default [
         sourceType: 'module',
         project: './tsconfig.json',
       },
+      env: {
+        node: true, // ✅ Habilita o ambiente Node.js
+      },
     },
     plugins: {
       '@typescript-eslint': plugin,
@@ -29,7 +32,7 @@ export default [
       '@typescript-eslint/no-unused-vars': ['warn'], // Usa a versão do TS
 
       // Outras sugestões (opcional):
-      'no-console': 'warn', // alerta para console.log
+      'no-console': 'off', // warn - alerta para console.log
       eqeqeq: ['error', 'always'], // obriga uso de ===
     },
   },
